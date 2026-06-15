@@ -1,0 +1,11 @@
+namespace BHOP;
+
+public class Config
+{
+    public bool Debug { get; set; }
+    #if DEBUG
+     = true;
+    #else
+     = false;
+    #endif
+}
