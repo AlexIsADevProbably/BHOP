@@ -7,9 +7,9 @@ using HintServiceMeow.Core.Utilities;
 using LabApi.Events.CustomHandlers;
 using LabApi.Events.Arguments.PlayerEvents;
 using LabApi.Features.Wrappers;
-using PlayerRoles.FirstPersonControl; // Required for base game physics
+using PlayerRoles.FirstPersonControl;
 using UnityEngine;
-using Logger = LabApi.Features.Console.Logger; // Required for Vector3 math
+using Logger = LabApi.Features.Console.Logger;
 namespace BHOP;
 
 public class Events : CustomEventsHandler
